@@ -62,7 +62,9 @@
 # Install rejoin-stack.sh
 1. Download file "rejon-stack.sh" and install to ./devstack directory
 2. This file is to restart the devstack
-devstack@meadows:~/devstack$ cat rejoin-stack.sh 
+
+devstack@meadows:~/devstack$ cat rejoin-stack.sh
+
         #!/usr/bin/env bash
 
         # This script rejoins an existing screen, or re-creates a
