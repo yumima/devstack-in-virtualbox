@@ -52,8 +52,10 @@ Note : IF YOU ARE NOT GOING TO INSTALL FROM SCRATCH, YOU CAN DOWNLOAD THE "meado
 3. Download devstack:
 	$ git clone https://github.com/openstack-dev/devstack
 4. Edit "stackrc" file and add line 753 as below:
+
 	752 HOST_IP=$(get_default_host_ip "$FIXED_RANGE" "$FLOATING_RANGE" "$HOST_IP_IFACE" "$HOST_IP" "inet")
 	753 HOST_IP="192.168.133.101"
+    
     *Note: I did this because for some reason the script cannot get the HOST_IP correctly so I hardcoded it in.
 5. Install devstack
 	$ ./stack.sh
