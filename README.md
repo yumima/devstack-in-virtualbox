@@ -6,7 +6,6 @@
 4. Download and Install DevStack:http://docs.openstack.org/developer/devstack/
 
 # Configure Virtual Box network
-
 1. Open Preferences -> network
 2. Add two host adaptor: vboxnet0 and vboxnet1
 ![Screen Shot 2016-06-16 at 2.38.55 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.38.55 PM.png)
