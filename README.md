@@ -14,7 +14,6 @@
 ![Screen Shot 2016-06-16 at 2.42.23 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.23 PM.png)
 4. Edit vboxnet1 the same way except the subnet is 192.168.133.0/24
 
-Note : IF YOU ARE NOT GOING TO INSTALL FROM SCRATCH, YOU CAN DOWNLOAD THE "meadows" VDI AND CONFIGURE THE NETWORK TO USE IT.
 
 # Boot up Ubuntu VM in virtualbox
 1. Start virtualnox and click on "New"
