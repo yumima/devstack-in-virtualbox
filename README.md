@@ -59,6 +59,14 @@
 
 !!! 呆棒了， 你成功了 ！！！
 
+# Install rejoin-stack.sh
+1. Download file "rejon-stack.sh" and install to ./devstack directory
+2. This file is to restart the devstack
+
+# References:
+https://www.openstack.org/software/start/
+
+
 
 
 
