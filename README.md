@@ -62,6 +62,31 @@
 # Install rejoin-stack.sh
 1. Download file "rejon-stack.sh" and install to ./devstack directory
 2. This file is to restart the devstack
+devstack@meadows:~/devstack$ cat rejoin-stack.sh 
+        #!/usr/bin/env bash
+
+        # This script rejoins an existing screen, or re-creates a
+        # screen session from a previous run of stack.sh.
+
+        TOP_DIR=`dirname $0`
+
+        # Import common functions in case the localrc (loaded via stackrc)
+        # uses them.
+        source $TOP_DIR/functions
+
+        source $TOP_DIR/stackrc
+
+        # if screenrc exists, run screen
+        if [[ -e $TOP_DIR/stack-screenrc ]]; then
+            if screen -ls | egrep -q "[0-9].stack"; then
+                echo "Attaching to already started screen session.."
+                exec screen -r stack
+            fi
+            exec screen -c $TOP_DIR/stack-screenrc
+        fi
+
+        echo "Couldn't find $TOP_DIR/stack-screenrc file; have you run stack.sh yet?"
+        exit 1
 
 # References:
 https://www.openstack.org/software/start/
