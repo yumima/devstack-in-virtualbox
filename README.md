@@ -58,7 +58,7 @@
     *Note: I did this because for some reason the script cannot get the HOST_IP correctly so I hardcoded it in.
 5. Install devstack
 	$ ./stack.sh
-6. Verify Installation by loging to Horizon on brower: https://192.168.133.1/dashboard
+6. Verify Installation by loging to Horizon on brower: http://192.168.133.101/dashboard
 
 !!! 呆棒了， 你成功了 ！！！
 
