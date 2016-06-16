@@ -14,6 +14,8 @@
 ![Screen Shot 2016-06-16 at 2.42.23 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.23 PM.png)
 4. Edit vboxnet1 the same way except the subnet is 192.168.133.0/24
 
+# IF YOU ARE NOT GOING TO INSTALL FROM SCRATCH, YOU CAN DOWNLOAD THE "meadows" VDI AND CONFIGURE THE NETWORK TO USE IT.
+
 # Boot up Ubuntu VM in virtualbox
 1. Start virtualnox and click on "New"
 2. Entern name "meadows", select Type as "Linux", Version as "Ubuntu (64-bit)"
@@ -59,6 +61,7 @@
 
 !!! 呆棒了， 你成功了 ！！！
 
+
 # Install rejoin-stack.sh
 1. Download file "rejon-stack.sh" and install to ./devstack directory
 2. This file is to restart the devstack
@@ -92,15 +95,3 @@ devstack@meadows:~/devstack$ cat rejoin-stack.sh
 
 # References:
 https://www.openstack.org/software/start/
-
-
-
-
-
-
-
-
-
-
-
-
