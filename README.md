@@ -10,8 +10,8 @@
 2. Add two host adaptor: vboxnet0 and vboxnet1
 ![Screen Shot 2016-06-16 at 2.38.55 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.38.55 PM.png)
 3. Edit vboxnet0 with subnet of 192.168.122.0/24
-![Screen Shot 2016-06-16 at 2.42.16 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.16 PM.png)
-![Screen Shot 2016-06-16 at 2.42.23 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.23 PM.png)
+![Screen Shot 2016-06-16 at 2.42.16 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.42.16 PM.png)
+![Screen Shot 2016-06-16 at 2.42.23 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.42.23 PM.png)
 4. Edit vboxnet1 the same way except the subnet is 192.168.133.0/24
 
 
@@ -28,9 +28,9 @@
 1. Click on the VM "meadows"
 2. Go to "Network" at the middle top
 3. Enable adaptor1 as "NAT" on vboxnet0, which is the port to go to internet through your host using NAT
-![Screen Shot 2016-06-16 at 2.53.23 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.53.23 PM.png)
+![Screen Shot 2016-06-16 at 2.53.23 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.53.23 PM.png)
 4. Enable adapator2 as "Host-only Adaptor" on vboxnet1, which will get a lcoal DHCP address from the laptop and so that the devstack can work offline when the latptop is not conneted to internet
-![Screen Shot 2016-06-16 at 2.55.57 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.55.57 PM.png)
+![Screen Shot 2016-06-16 at 2.55.57 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.55.57 PM.png)
 
 ## Boto up VM "meadows"
 1. Power up the VM and Select the Ubuntu booting image downloaded earlier
