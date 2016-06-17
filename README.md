@@ -44,6 +44,7 @@
 - $ sudo dhclient -v
     
    after which, you should see these two interfaces with IP address as:
+   ![Screen Shot 2016-06-17 at 8.39.38 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.39.38 AM.png)
    ![Screen Shot 2016-06-17 at 8.32.11 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.32.11 AM.png)
    ![Screen Shot 2016-06-17 at 8.32.03 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.32.03 AM.png)
 
