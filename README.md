@@ -8,7 +8,7 @@
 ## Configure Virtual Box network
 1. Open Preferences -> network
 2. Add two host adaptor: vboxnet0 and vboxnet1
-![Screen Shot 2016-06-16 at 2.38.55 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.38.55 PM.png)
+![Screen Shot 2016-06-16 at 2.38.55 PM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-16 at 2.38.55 PM.png)
 3. Edit vboxnet0 with subnet of 192.168.122.0/24
 ![Screen Shot 2016-06-16 at 2.42.16 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.16 PM.png)
 ![Screen Shot 2016-06-16 at 2.42.23 PM.png]({{site.baseurl}}/Screen Shot 2016-06-16 at 2.42.23 PM.png)
