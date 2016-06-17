@@ -39,7 +39,8 @@
 4. Check both NIC eth0 and eth1 are up with addresses: ifconfig
 5. If not, bring up the interface and renew hdcp address: 
 
-	$ sudo ifconfig <eth0|eth1> up
+	$ sudo ifconfig eth0 up
+    $ sudo ifcongig eth1 up
     $ sudo dhclient -v
     
    after which, you should see these two interfaces with IP address as:
