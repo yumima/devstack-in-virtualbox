@@ -40,8 +40,8 @@
 5. If not, bring up the interface and renew hdcp address: 
 
 	$ sudo ifconfig eth0 up
-    $ sudo ifcongig eth1 up
-    $ sudo dhclient -v
+	$ sudo ifcongig eth1 up
+	$ sudo dhclient -v
     
    after which, you should see these two interfaces with IP address as:
    ![Screen Shot 2016-06-17 at 8.32.11 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.32.11 AM.png)
