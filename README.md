@@ -40,6 +40,10 @@
 5. If not, bring up the interface and renew hdcp address: 
 	$ sudo ifconfig <eth0|eth1> up
     $ sudo dhclient -v
+   After that, you should see these two interfaces with IP address as:
+   ![Screen Shot 2016-06-17 at 8.32.11 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.32.11 AM.png)
+   ![Screen Shot 2016-06-17 at 8.32.03 AM.png](https://github.com/yumima/devstack-in-virtualbox/blob/master/Screen Shot 2016-06-17 at 8.32.03 AM.png)
+
 4. On VM, ping 192.168.133.1 (through the host-only adaptor to the gateway on the laptop)
 5. On VM, ping www.google.com (through the NAT adaptor to internal through the laptop)
 
